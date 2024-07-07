@@ -1,5 +1,7 @@
 import React from "react";
 import "../images/weather-app.png";
+import codechemss from "../images/Screenshot 2024-07-07 190324.png";
+import outerbasess from "../images/Screenshot 2024-07-07 190749.png";
 
 const Projects = () => {
   return (
@@ -25,7 +27,68 @@ const Projects = () => {
                 <div className="bg-blue-600 h-12 w-2"></div>
                 <div>
                   <h1 className="text-blue-600 text-lg lg:text-xl font-bold">
-                    Weather App 01
+                    Outherbase Hackathon 01
+                  </h1>
+                  <p className="text-sm lg:text-lg font-semibold">Password</p>
+                </div>
+              </div>
+              <p className="ml-4 text-sm ">
+                The CodeChem Club website is a vibrant and interactive platform
+                designed to foster a community of technology enthusiasts and
+                innovators. Built using modern frontend technologies, the site
+                features a sleek and responsive design that ensures an optimal
+                user experience across all devices. The website serves as a hub
+                for club activities and learning
+              </p>
+            </div>
+            <div>
+              <a href="https://codechem.netlify.app/" target="password">
+                <img
+                  src={codechemss}
+                  className="h-56 lg:h-full w-full lg:w-[20rem] rounded-b-2xl lg:rounded-r-2xl cursor-pointer object-fill"
+                  alt="CodeChem"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="drop-shadow-2xl bg-white gap-10 flex lg:flex-row flex-col justify-between mt-16 lg:h-[22rem] rounded-2xl">
+            <div className="lg:w-[25rem] flex flex-col gap-10 flex-wrap">
+              <div className="flex gap-5 mt-10">
+                <div className="bg-blue-600 h-12 w-2"></div>
+                <div>
+                  <h1 className="text-blue-600 text-lg lg:text-xl font-bold">
+                    Outherbase Hackathon 02
+                  </h1>
+                  <p className="text-sm lg:text-lg font-semibold">Password</p>
+                </div>
+              </div>
+              <p className="ml-4 text-sm ">
+                Postpilot : Developed the complete frontend for a project that
+                automatically generates and posts content on LinkedIn and
+                Twitter on topics such as technology, finance, and startups, as
+                part of the Outerbase hackathon.
+              </p>
+            </div>
+            <div>
+              <a
+                href="https://www.linkedin.com/feed/update/urn:li:activity:7114253529212448768/"
+                target="password"
+              >
+                <img
+                  src={outerbasess}
+                  className="h-56 lg:h-full w-full lg:w-[20rem] rounded-b-2xl lg:rounded-r-2xl cursor-pointer object-fill"
+                  alt="Outerbase hackathon"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="drop-shadow-2xl bg-white gap-10 flex lg:flex-row flex-col justify-between mt-16 lg:h-[22rem] rounded-2xl">
+            <div className="lg:w-[25rem] flex flex-col gap-10 flex-wrap">
+              <div className="flex gap-5 mt-10">
+                <div className="bg-blue-600 h-12 w-2"></div>
+                <div>
+                  <h1 className="text-blue-600 text-lg lg:text-xl font-bold">
+                    Weather App 03
                   </h1>
                   <p className="text-sm lg:text-lg font-semibold">Weather</p>
                 </div>
@@ -53,7 +116,7 @@ const Projects = () => {
                 <div className="bg-blue-600 h-12 w-2"></div>
                 <div>
                   <h1 className="text-blue-600 text-lg lg:text-xl font-bold">
-                    Tik Tac Toe 02
+                    Tik Tac Toe 04
                   </h1>
                   <p className="text-sm lg:text-lg font-semibold">Game</p>
                 </div>
@@ -82,7 +145,7 @@ const Projects = () => {
                 <div className="bg-blue-600 h-12 w-2"></div>
                 <div>
                   <h1 className="text-blue-600 text-lg lg:text-xl font-bold">
-                    Password Generator 03
+                    Password Generator 05
                   </h1>
                   <p className="text-sm lg:text-lg font-semibold">Password</p>
                 </div>
