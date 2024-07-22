@@ -12,7 +12,7 @@ const Resume = () => {
         <div className="flex justify-between mx">
           <p className="font-bold text-2xl">Education</p>
           <a
-            href="https://drive.google.com/file/d/1WkIKPq2XJ0OrQGSWXz2PoqsKgOvzEMgt/view"
+            href="https://drive.google.com/file/d/1gJn6tdX9nfsuPdy3mzyACn6A_0QfX6o_/view?usp=drive_link"
             target="resume"
           >
             <button className="py-2 px-6 text-sm font-bold border-2 bg-blue-700 text-white rounded-3xl hover:border-2 hover:border-blue-700 hover:text-black hover:bg-white ">
